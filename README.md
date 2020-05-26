@@ -23,8 +23,8 @@ The configuration file is in `/etc/rest980.conf`.
 |BLID| |*(required)* The Roomba blid.|
 |PASSWORD| |*(required)* The Roomba password|
 |FIRMWARE_VERSION|2|*(optional)* Set to 1 or 2 depends of your robot firmware version. Use `2` for any firmware >=2 (yes, use 2 if you have firmware version 3). Default to 1 for firmware 1.6.6|
-|ENABLE_LOCAL|yes|*(optional)* Set to 'no' if you want to disable local API. Default 'yes'.|
-|ENABLE_CLOUD|no|*(optional)* Set to 'no' if you want to disable cloud API. Default 'yes'.|
+|ENABLE_LOCAL|yes|*(optional)* Set to 'no' if you want to disable local API.|
+|ENABLE_CLOUD|no|*(optional)* Set to 'no' if you want to disable cloud API.|
 |KEEP_ALIVE|yes|*(optional)* Set to 'no' if you want to connect and disconnect to the robot in each request (slow but leave the connection free for the official mobile app).|
 |SSL_KEY_FILE| |*(optional)* Set path to key file to enable HTTPS. Both key and cert must be set. [(how to create self signed cert)](http://www.akadia.com/services/ssh_test_certificate.html)|
 |SSL_CERT_FILE| |*(optional)* Set path to cert file to enable HTTPS. Both key and cert must be set. [(how to create self signed cert)](http://www.akadia.com/services/ssh_test_certificate.html)|
