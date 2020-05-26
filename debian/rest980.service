@@ -8,6 +8,7 @@ Environment="NODE_PATH=/opt/rest980/node_modules"
 Environment="SUPPRESS_NO_CONFIG_WARNING=1"
 Environment="DEBUG=rest980:*"
 ExecStart=/opt/rest980/bin/www
+SyslogIdentifier=rest980
 
 [Install]
 WantedBy=multi-user.target
