@@ -1,5 +1,5 @@
 [Unit]
-Description=REST interface to control your iRobot Roomba 980
+Description=REST interface to control your iRobot Roomba
 
 [Service]
 Type=simple

@@ -1,12 +1,12 @@
 Source: rest980
-Section: admin
+Section: net
 Priority: optional
 Maintainer: Andoni del Olmo <andoni.delolmo@gmail.com>
 Build-Depends: debhelper (>=9), npm
 Standards-Version: 3.9.4
-Homepage: https://github.com/adelolmo/create_ap
+Homepage: https://github.com/adelolmo/rest980
 
 Package: rest980
 Depends: npm
 Architecture: any
-Description: dorita980 REST interface to control your iRobot Roomba 980.
+Description: REST interface to control your iRobot Roomba 900 series 980 / i7 / i7+ via HTTP requests.

@@ -4,7 +4,7 @@
 rest980 create a http server to map all [dorita980](https://github.com/koalazak/dorita980) methods in a REST API to control your iRobot Roomba 900 series 980 / i7 / i7+ via HTTP requests.
 
 ## Build
-You can build the package for an specific architecture. Possible values are `armhf`, `arm64`, `amd64` and `i386`. 
+You can build the package for a specific architecture. Possible values are `armhf`, `arm64`, `amd64` and `i386`. 
 ```bash
 $ dpkg-buildpackage -a armhf -us -uc -b
 ```
