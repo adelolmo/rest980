@@ -24,3 +24,4 @@ override_dh_auto_install:
 	cp -r routes $(DESTDIR)/opt/rest980/
 	cp -r views $(DESTDIR)/opt/rest980/
 	cp -r config $(DESTDIR)/opt/rest980/
+	sed -i "s|logger('dev')|logger('tiny')|" $(DESTDIR)/opt/rest980/app.js
