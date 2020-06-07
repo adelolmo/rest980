@@ -1,0 +1,8 @@
+app.js /opt/rest980/
+/debian/rest980.conf /etc/
+/node_modules /opt/rest980/
+/bin /opt/rest980/
+/public /opt/rest980/
+/routes /opt/rest980/
+/views /opt/rest980/
+/config /opt/rest980/

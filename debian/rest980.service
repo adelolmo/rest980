@@ -1,5 +1,6 @@
 [Unit]
 Description=REST interface to control your iRobot Roomba
+After=network.target
 
 [Service]
 Type=simple
@@ -9,6 +10,8 @@ Environment="SUPPRESS_NO_CONFIG_WARNING=1"
 Environment="DEBUG=rest980:*"
 ExecStart=/opt/rest980/bin/www
 SyslogIdentifier=rest980
+Restart=on-failure
+RestartSec=5
 
 [Install]
 WantedBy=multi-user.target
