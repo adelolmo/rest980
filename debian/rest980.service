@@ -8,6 +8,7 @@ EnvironmentFile=/etc/rest980.conf
 Environment="NODE_PATH=/opt/rest980/node_modules"
 Environment="SUPPRESS_NO_CONFIG_WARNING=1"
 Environment="DEBUG=rest980:*"
+WorkingDirectory=/opt/rest980
 ExecStart=/opt/rest980/bin/www
 SyslogIdentifier=rest980
 Restart=on-failure
