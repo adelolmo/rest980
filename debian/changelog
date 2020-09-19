@@ -1,3 +1,11 @@
+rest980 (2.1.0~ado3) unstable; urgency=medium
+
+  * debian package for all architectures
+  * simplify package creation
+  * update dorita980 to v3.1.8
+
+ -- Andoni del Olmo <andoni.delolmo@gmail.com>  Sat, 19 Sep 2020 13:27:04 +0200
+
 rest980 (2.1.0~ado2) unstable; urgency=medium
 
   * add syslog identifier

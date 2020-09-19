@@ -32,7 +32,7 @@ The configuration file is in `/etc/rest980.conf`.
 
 *See [dorita980](https://github.com/koalazak/dorita980) for more information and instructions for obtaining your robot blid and password*
 
-## Fimrware version
+## Firmware version
 
 [Check your robot firmware version!](http://homesupport.irobot.com/app/answers/detail/a_id/529) and set your firmware version in `firmwareVersion` rest980 configuration!
 
